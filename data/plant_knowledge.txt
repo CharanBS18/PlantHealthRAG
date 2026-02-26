@@ -1,0 +1,206 @@
+Tomato Early Blight:
+Crop: Tomato
+Stage: Vegetative to Fruiting
+Region: Warm humid regions
+Cause: Fungus Alternaria solani.
+Symptoms: Brown spots with ring pattern on older leaves, yellow halo around spots, leaves dry and fall.
+Treatment: Remove infected leaves, spray recommended fungicide, avoid wet leaves.
+Prevention: Keep plant spacing, water at soil level, clean crop debris after harvest.
+
+Tomato Late Blight:
+Crop: Tomato
+Stage: Vegetative to Fruiting
+Region: Cool and wet regions
+Cause: Phytophthora infestans.
+Symptoms: Dark wet-looking patches on leaves, white growth under leaf, fast spread in rainy weather.
+Treatment: Remove badly infected plants, spray copper-based fungicide early, reduce leaf wetness.
+Prevention: Use resistant varieties, avoid overhead watering, improve field drainage.
+
+Tomato Leaf Curl Virus:
+Crop: Tomato
+Stage: Early to Mid growth
+Region: Tropical and subtropical
+Cause: Virus spread by whiteflies.
+Symptoms: Upward leaf curl, small leaves, stunted growth, poor fruit set.
+Treatment: Remove heavily affected plants, control whiteflies, use yellow sticky traps.
+Prevention: Use healthy seedlings, install insect net where possible, keep weeds low.
+
+Tomato Septoria Leaf Spot:
+Crop: Tomato
+Stage: Mid to late season
+Region: Humid regions
+Cause: Fungus Septoria lycopersici.
+Symptoms: Many small round spots with dark border and pale center on lower leaves.
+Treatment: Remove infected leaves, use approved fungicide, avoid splashing water.
+Prevention: Mulch soil, rotate crops, keep leaves dry.
+
+Rice Blast:
+Crop: Rice
+Stage: Nursery to grain filling
+Region: High humidity and low night temperature
+Cause: Fungus Magnaporthe oryzae.
+Symptoms: Spindle-shaped lesions with gray center on leaves, neck rot near panicle.
+Treatment: Use recommended fungicide at early stage, balanced fertilizer, avoid excess nitrogen.
+Prevention: Resistant varieties, proper spacing, avoid late heavy nitrogen dose.
+
+Rice Bacterial Leaf Blight:
+Crop: Rice
+Stage: Tillering to maturity
+Region: Warm wet regions
+Cause: Bacteria Xanthomonas oryzae.
+Symptoms: Yellow to white leaf streaks from tip, leaf drying, reduced tillers.
+Treatment: Drain excess water, use recommended bactericide if advised locally, remove badly affected clumps.
+Prevention: Use clean seed, avoid plant injury, balanced nutrients.
+
+Chili Leaf Curl:
+Crop: Chili
+Stage: Early to flowering
+Region: Warm regions
+Cause: Virus spread by whiteflies.
+Symptoms: Leaves curl upward, leaves become thick and small, plant remains short.
+Treatment: Remove highly infected plants, control whiteflies, use sticky traps.
+Prevention: Healthy seedlings, insect-proof nursery, weed control around field.
+
+Powdery Mildew:
+Crop: Many crops
+Stage: Any stage
+Region: Dry days and cool nights
+Cause: Fungal infection.
+Symptoms: White powder-like layer on leaf surface, yellowing, weak growth.
+Treatment: Remove affected leaves, spray sulfur-based fungicide if suitable for crop.
+Prevention: Good airflow, avoid overcrowding, monitor regularly.
+
+Downy Mildew:
+Crop: Many crops
+Stage: Any stage
+Region: Cool humid conditions
+Cause: Oomycete infection.
+Symptoms: Yellow patches on upper leaf, gray-purple growth under leaf.
+Treatment: Remove infected leaves, spray recommended fungicide early.
+Prevention: Reduce leaf wetness, morning irrigation only, clean tools.
+
+Nitrogen Deficiency:
+Crop: Many crops
+Stage: Fast vegetative growth
+Region: Any region
+Cause: Low available nitrogen in soil.
+Symptoms: Older leaves turn light green to yellow first, slow growth.
+Treatment: Apply nitrogen-rich fertilizer in split doses, add compost.
+Prevention: Soil test, balanced fertilizer schedule, maintain organic matter.
+
+Potassium Deficiency:
+Crop: Many crops
+Stage: Flowering to fruiting
+Region: Sandy or nutrient-poor soils
+Cause: Low potassium availability.
+Symptoms: Brown leaf margins, weak stems, poor fruit quality.
+Treatment: Add potash fertilizer, irrigate after application.
+Prevention: Soil testing, balanced NPK application, add crop residue compost.
+
+Phosphorus Deficiency:
+Crop: Many crops
+Stage: Early growth
+Region: Cold or compact soils
+Cause: Poor phosphorus uptake.
+Symptoms: Slow growth, dark green or purple leaves, weak roots.
+Treatment: Apply phosphorus fertilizer near root zone.
+Prevention: Correct soil pH, place fertilizer properly, improve root health.
+
+Zinc Deficiency:
+Crop: Rice, maize, citrus and others
+Stage: Early growth
+Region: High pH soils
+Cause: Low zinc in soil.
+Symptoms: Yellowing between veins on young leaves, short internodes.
+Treatment: Apply zinc sulfate as soil or foliar spray as per label.
+Prevention: Soil test, micronutrient mix in schedule, avoid over-liming.
+
+Mango Anthracnose (Fruit Rot):
+Crop: Mango
+Stage: Fruiting and post-harvest
+Region: Humid and rainy regions
+Cause: Fungus Colletotrichum gloeosporioides.
+Symptoms: Black sunken spots on fruit skin, dark patches expand during storage, cut fruit may show soft brown rot.
+Treatment: Remove infected fruits, use recommended fungicide before harvest, handle fruits gently after harvest.
+Prevention: Prune canopy for airflow, avoid fruit injury, keep orchard clean and dry.
+
+Mango Stem-End Rot:
+Crop: Mango
+Stage: Post-harvest
+Region: Warm humid regions
+Cause: Fungal infection entering through stem end.
+Symptoms: Black soft rot starts near stem end, internal fruit tissue turns brown after cutting.
+Treatment: Harvest carefully with short stem, sort and remove affected fruits, use approved post-harvest treatment.
+Prevention: Sanitize crates, avoid rough handling, store in cool dry place.
+
+Banana Anthracnose:
+Crop: Banana
+Stage: Fruit ripening and storage
+Region: Warm humid regions
+Cause: Fungal infection.
+Symptoms: Black circular sunken spots on peel, fruit flesh may soften under spots.
+Treatment: Remove affected fruits, keep fruits dry, use recommended fungicide program in field.
+Prevention: Bag bunches where practiced, avoid fruit injuries, keep packing area clean.
+
+Citrus Canker:
+Crop: Citrus
+Stage: Leaf flush to fruiting
+Region: Warm wet regions
+Cause: Bacterial infection.
+Symptoms: Raised corky lesions on leaves and fruit, yellow halo around lesions, fruit quality drops.
+Treatment: Remove badly affected twigs, spray copper-based product as advised locally, control leaf miner.
+Prevention: Use disease-free nursery plants, sanitize tools, avoid movement of infected material.
+
+Citrus Greening (HLB):
+Crop: Citrus
+Stage: Any stage
+Region: Tropical and subtropical
+Cause: Bacteria spread by psyllid insect.
+Symptoms: Uneven yellow leaves, small lopsided fruits, bitter taste, poor yield.
+Treatment: Remove severely affected trees, manage psyllid population, improve nutrition and irrigation.
+Prevention: Use certified healthy seedlings, monitor psyllids regularly, remove nearby infected hosts.
+
+Apple Scab:
+Crop: Apple
+Stage: Leaf emergence to fruiting
+Region: Cool moist regions
+Cause: Fungus Venturia inaequalis.
+Symptoms: Olive-brown velvety spots on leaves and fruits, fruit cracks in severe cases.
+Treatment: Remove infected leaves/fruits, spray recommended fungicide schedule.
+Prevention: Orchard sanitation, pruning for airflow, avoid long leaf wetness period.
+
+Guava Fruit Fly Damage:
+Crop: Guava
+Stage: Fruiting
+Region: Warm regions
+Cause: Fruit fly infestation.
+Symptoms: Small puncture marks on fruit, internal maggots, fruit rots after cutting.
+Treatment: Collect and destroy infested fruits, use protein bait traps, bag fruits.
+Prevention: Orchard hygiene, regular trap monitoring, timely harvest.
+
+Pomegranate Bacterial Blight:
+Crop: Pomegranate
+Stage: Flowering to fruiting
+Region: Warm humid regions
+Cause: Bacterial infection.
+Symptoms: Black spots on leaves/fruits, oily water-soaked lesions, fruit cracking.
+Treatment: Remove affected branches/fruits, spray advised bactericide schedule, avoid overhead irrigation.
+Prevention: Clean pruning tools, proper spacing, balanced nutrients.
+
+Coconut Bud Rot:
+Crop: Coconut
+Stage: Seedling to young palm
+Region: High rainfall regions
+Cause: Fungal-like infection.
+Symptoms: Central spindle leaf rots, foul smell, crown may collapse.
+Treatment: Remove rotted tissue carefully, apply recommended protective paste/fungicide.
+Prevention: Improve drainage, avoid water stagnation, monitor crown regularly.
+
+Tree Bark Canker:
+Crop: Fruit trees and timber trees
+Stage: Any stage
+Region: Many regions
+Cause: Fungal or bacterial infection through wounds.
+Symptoms: Sunken cracked bark, gum oozing, branch dieback.
+Treatment: Prune infected branches, clean wound area, apply recommended wound protectant.
+Prevention: Disinfect pruning tools, avoid trunk injury, improve tree vigor.

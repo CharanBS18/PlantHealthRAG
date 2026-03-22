@@ -108,6 +108,26 @@ Prevention: ...
 
 `Crop`, `Stage`, and `Region` fields are parsed as metadata for filtered retrieval.
 
+## Deployment
+
+### Option 1: Streamlit Cloud (Recommended)
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Connect your GitHub account
+3. Select this repository (`CharanBS18/PlantHealthRAG`)
+4. Click Deploy
+
+**Note:** The app uses large ML models that may require a paid plan for sufficient resources.
+
+### Option 2: Heroku
+1. Create a Heroku account and app
+2. Add the following secrets to your GitHub repository:
+   - `HEROKU_API_KEY`: Your Heroku API key
+   - `HEROKU_APP_NAME`: Your Heroku app name
+   - `HEROKU_EMAIL`: Your Heroku email
+3. Push this code to the `main` branch to trigger automatic deployment
+
+**Note:** Free Heroku dynos have limited resources and may not handle the ML model loading well.
+
 ## Tests
 ```bash
 pytest -q

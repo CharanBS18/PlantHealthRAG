@@ -26,7 +26,7 @@ Local Streamlit app for plant disease guidance using:
 ## Project structure
 ```text
 .
-├── app.py                         # Streamlit UI + app orchestration
+├── streamlit_app.py               # Streamlit UI + app orchestration
 ├── config.py                      # Env-based runtime configuration
 ├── data/
 │   ├── plant_knowledge.txt        # Source knowledge base
@@ -84,7 +84,7 @@ ENABLE_TTS=true
 
 ## Run the app
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 Then in the UI:

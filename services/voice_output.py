@@ -73,6 +73,24 @@ def synthesize_speech(text: str) -> tuple[bytes, str] | None:
         except Exception:
             pass
 
+        # Second choice: gTTS (Google Text-to-Speech) - works in cloud environments
+        try:
+            from gtts import gTTS
+            import io
+
+            # Generate speech using gTTS
+            tts = gTTS(text=text, lang='en', slow=False)
+            audio_buffer = io.BytesIO()
+            tts.write_to_fp(audio_buffer)
+            audio_buffer.seek(0)
+            audio_bytes = audio_buffer.read()
+
+            # gTTS returns MP3, but browsers can play it
+            if audio_bytes and len(audio_bytes) > 100:  # Basic validation
+                return audio_bytes, "audio/mp3"
+        except Exception:
+            pass
+
         # macOS fallback: system `say` + `afconvert` to valid WAV (macOS only)
         wav_bytes = _macos_say_wav(text)
         if _is_valid_wav(wav_bytes):

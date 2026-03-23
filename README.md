@@ -79,7 +79,7 @@ LLM_TEMPERATURE=0.2
 VISION_MODEL_NAME=Salesforce/blip-image-captioning-base
 HISTORY_PATH=data/analysis_history.json
 DEFAULT_LANGUAGE=English
-ENABLE_TTS=false
+ENABLE_TTS=true
 ```
 
 ## Run the app

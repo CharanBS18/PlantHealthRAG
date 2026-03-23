@@ -17,4 +17,4 @@ LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.2"))
 VISION_MODEL_NAME = os.getenv("VISION_MODEL_NAME", "Salesforce/blip-image-captioning-base")
 HISTORY_PATH = os.getenv("HISTORY_PATH", "data/analysis_history.json")
 DEFAULT_LANGUAGE = os.getenv("DEFAULT_LANGUAGE", "English")
-ENABLE_TTS = os.getenv("ENABLE_TTS", "false").lower() == "true"
+ENABLE_TTS = os.getenv("ENABLE_TTS", "true").lower() == "true"

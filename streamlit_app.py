@@ -75,8 +75,10 @@ with col_left:
         try:
             build_vector_store()
             st.success("Vector index created!")
+            st.rerun()  # Refresh the page to update the UI
         except Exception as exc:
             st.error(f"Failed to build vector index: {exc}")
+            st.info("If this persists, check that data/plant_knowledge.txt exists and is readable.")
 
     uploaded_file = st.file_uploader(
         "Upload plant/leaf image",
@@ -104,8 +106,10 @@ with col_right:
             st.markdown(f"- `{stamp}`: **{short_disease}**")
 
 if analyze_clicked:
-    if not os.path.exists("embeddings"):
-        st.warning("Please build the knowledge base first.")
+    from services.vector_store import INDEX_PATH, DOCS_PATH
+    if not (os.path.exists(INDEX_PATH) and os.path.exists(DOCS_PATH)):
+        st.error("Vector index not found. Please click 'Build Knowledge Base Index' first.")
+        st.info("The knowledge base needs to be built before you can analyze plants.")
     elif not query.strip() and not uploaded_file:
         st.warning("Upload an image or enter symptoms.")
     else:

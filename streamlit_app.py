@@ -171,15 +171,20 @@ if analyze_clicked:
                 st.error(f"Analysis failed: {exc}")
 
 if st.session_state.last_answer:
-    st.markdown("### Voice Output")
-    if st.button("Generate Audio Advice"):
-        st.session_state.last_audio_bytes = None
-        audio_payload = synthesize_speech(st.session_state.last_answer)
-        if audio_payload:
-            audio_bytes, audio_format = audio_payload
-            st.session_state.last_audio_bytes = audio_bytes
-            st.session_state.last_audio_format = audio_format
-        else:
-            st.warning("Text-to-speech could not generate valid audio on this system.")
-    if st.session_state.last_audio_bytes:
-        st.audio(st.session_state.last_audio_bytes, format=st.session_state.last_audio_format)
+    from config import ENABLE_TTS
+    if ENABLE_TTS:
+        st.markdown("### Voice Output")
+        if st.button("Generate Audio Advice"):
+            st.session_state.last_audio_bytes = None
+            audio_payload = synthesize_speech(st.session_state.last_answer)
+            if audio_payload:
+                audio_bytes, audio_format = audio_payload
+                st.session_state.last_audio_bytes = audio_bytes
+                st.session_state.last_audio_format = audio_format
+            else:
+                st.warning("Text-to-speech could not generate valid audio on this system.")
+        if st.session_state.last_audio_bytes:
+            st.audio(st.session_state.last_audio_bytes, format=st.session_state.last_audio_format)
+    else:
+        with st.expander("Voice Output (Disabled)"):
+            st.info("Text-to-speech is disabled in this deployment. Enable it locally by setting ENABLE_TTS=true in your environment variables.")

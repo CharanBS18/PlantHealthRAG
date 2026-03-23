@@ -1,4 +1,5 @@
 import os
+import platform
 import subprocess
 import tempfile
 
@@ -19,6 +20,10 @@ def _is_valid_wav(data: bytes | None) -> bool:
 
 
 def _macos_say_wav(text: str) -> bytes | None:
+    # Only work on macOS
+    if platform.system() != "Darwin":
+        return None
+
     aiff_fd, aiff_path = tempfile.mkstemp(suffix=".aiff", prefix="plant_health_")
     os.close(aiff_fd)
     wav_fd, wav_path = tempfile.mkstemp(suffix=".wav", prefix="plant_health_")
@@ -53,7 +58,7 @@ def synthesize_speech(text: str) -> tuple[bytes, str] | None:
     if not ENABLE_TTS or not text.strip():
         return None
 
-    # First choice: pyttsx3 WAV output.
+    # First choice: pyttsx3 WAV output (works on multiple platforms)
     wav_fd, wav_path = tempfile.mkstemp(suffix=".wav", prefix="plant_health_")
     os.close(wav_fd)
     try:
@@ -68,7 +73,7 @@ def synthesize_speech(text: str) -> tuple[bytes, str] | None:
         except Exception:
             pass
 
-        # macOS fallback: system `say` + `afconvert` to valid WAV.
+        # macOS fallback: system `say` + `afconvert` to valid WAV (macOS only)
         wav_bytes = _macos_say_wav(text)
         if _is_valid_wav(wav_bytes):
             return wav_bytes, "audio/wav"
